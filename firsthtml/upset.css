@@ -1,0 +1,64 @@
+body
+{
+    background-color:rgb(179,126,156);
+    background-image:url('1920X1080-13.jpg');
+    background-repeat:repeat-x;
+
+}
+
+/*body
+{
+    background-color:rgb(179,126,156);
+    background-image:url('1920X1080-13.jpg');
+    background-repeat:no-repeat;
+    background-position:left top;
+
+}
+*/
+
+/*简写属性
+color , image,repeat(平铺),attachment,position*/
+body
+{
+   background:rgb(176,126,256) url('1920X1080-13.jpg') no-repeat right top;
+}
+
+/*attachment 固定方式
+scroll :背景图片随页面滚动而滚动（默认）；
+fixed: 不随页面滚动；
+local: 随元素内容滚动而滚动；
+initial:默认值;
+inherit:从父元素继承
+*/
+
+/*position:  用left,center,right  与  top,center,bottom  排列组合
+             只写一个值时另一个默认为center*/
+
+
+h1
+{
+    color:purple;
+    text-align:center;
+}
+
+
+
+p
+{
+    font-family:"Times New Roman";
+    font-size:22px;
+}
+
+
+
+#div
+{
+    color:yellow;
+    text-align:left;
+}
+
+div1.div-out
+{
+    text-align:center;
+    color:bule;
+}

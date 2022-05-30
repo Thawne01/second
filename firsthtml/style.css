@@ -1,0 +1,25 @@
+body{
+      display:flex;
+      /*水平居中*/
+      justify-content:center;
+    }
+
+
+    .div-out{
+      display:flex;
+      /*水平居中*/
+      justify-content:center;
+      /*垂直居中*/
+      align-items:center;
+
+      border:1px solid black;
+      width:200px;
+      height:200px;
+      margin-left:10px;
+    }
+
+    #div1{ background:blue}
+    #div2{ background:yellow}
+    #div3{ background:green}
+
+    #div3 input{width:90px}

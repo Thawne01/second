@@ -1,0 +1,26 @@
+import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif']='SimHei'
+plt.rcParams['axes.unicode_minus']=False
+a=[1,2,5,8]
+b=['c','d','e','f']
+plt.style.use('ggplot')
+plt.xlim(0,4)
+plt.ylim(0,4)
+g=[0.01,0.01,0.01,0.01]
+color=['#7777ff','#ff7777','#2442aa','#5555dd']
+plt.pie(x=a,
+        labels=b,
+        explode=g,
+        colors=color,
+        autopct='%.i%%',
+        pctdistance=1,
+        labeldistance=1.2,
+        startangle=0,
+        countercolck=True,
+        wedgeprops={'edgecolor':'y'},
+        textprops={'fontsize':12,'color':'g'},
+        center=(1,1))
+plt.xticks()
+plt.yticks()
+plt.title('45465')
+plt.show()

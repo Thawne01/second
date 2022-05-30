@@ -1,0 +1,40 @@
+body{
+      display:flex;
+      /*水平が真ん中*/
+      justify-content:center;
+    }
+
+
+    .div-out{
+      display:flex;
+      /*垂直居中*/
+      align-items:center;
+
+
+      border: 1px purple center;
+      width:200px;
+      height:200px;
+      margin-right:10px;
+    }
+    .456{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+
+      border:1px green solid;
+      width:500px;
+      height:300px;
+      margin-right:2px;
+    }
+
+    #div1{ background:green}
+    #div2{ background:red}
+    #div3{ background:white}
+    #div4{ background:white}
+
+    #div3 input{width:90px}
+
+
+
+
